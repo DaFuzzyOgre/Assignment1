@@ -1,4 +1,12 @@
 {
+  
+    "name": "seneca",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node week2.js"
+    },
   "dependencies": {
     "express": "^4.17.2"
   }
