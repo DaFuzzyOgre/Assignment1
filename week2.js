@@ -12,7 +12,8 @@ function onHttpStart() {
 // setup a 'route' to listen on the default url path (http://localhost)
 app.get("/", function(req,res){
     res.send("Welcome to Ogres Inc. <br /><a href='/'>Home</a><a href='/about'>About</a> <br /><a href='/project'>Project</a>");
-});
+    res.render({foo:'&copy; Carleigh Feldhouse'})
+  });
 
 // setup another route to listen on /about
 app.get("/about", function(req,res){
@@ -24,6 +25,6 @@ app.get("/project", function(req,res){
   res.sendFile(path.join(__dirname,"/views/project.html"));
 });
 
-
 // setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT, onHttpStart);
+
