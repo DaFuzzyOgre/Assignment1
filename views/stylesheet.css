@@ -1,18 +1,13 @@
+body {
+  background-color: #e9e9e9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  text-align: left;
+}
+
+h1{
+  text-align: left;
+}
 
 
-/* Style links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 10px;
-    font-size: 17px;
-  }
 
-  /* Add color to the current link */
-.topnav a.current {
-    background-color: #1f914b;
-    color: #ffffff;
-  }
-  
