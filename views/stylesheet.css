@@ -1,0 +1,18 @@
+
+
+/* Style links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 17px;
+  }
+
+  /* Add color to the current link */
+.topnav a.active {
+    background-color: #1f914b;
+    color: #ffffff;
+  }
+  
