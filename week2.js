@@ -27,9 +27,3 @@ app.get("/project", function(req,res){
 
 // setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT, onHttpStart);
-
-app.get('/home', function(req, res){    
-  res.render('index',{user:"John Smith"})
-});
-
-
