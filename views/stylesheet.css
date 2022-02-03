@@ -2,14 +2,14 @@ body {
   background-color: #e9e9e9;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #000;
-  text-align: center;
+  text-align: left;
 }
 
 h1{
-  text-align: center;
+  text-align: left;
 }
 
 p{
-  text-align: center;
+  text-align: left;
 }
 
