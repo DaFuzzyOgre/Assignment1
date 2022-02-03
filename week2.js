@@ -11,7 +11,7 @@ function onHttpStart() {
 
 // setup a 'route' to listen on the default url path (http://localhost)
 app.get("/", function(req,res){
-    res.send("<a href='/about'>[About]</a><a href='/project'>[Project]</a><br />Welcome Ogre, Inc.<br /><footer>&copy;Ogre, Inc</footer>");
+    res.send("<head><style> body{#e9e9e9;}</style></head><a href='/about'>[About]</a><a href='/project'>[Project]</a><br />Welcome Ogre, Inc.<br /><footer>&copy;Ogre, Inc</footer>");
   });
 
 // setup another route to listen on /about
@@ -26,3 +26,4 @@ app.get("/project", function(req,res){
 
 // setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT, onHttpStart);
+
