@@ -11,8 +11,7 @@ function onHttpStart() {
 
 // setup a 'route' to listen on the default url path (http://localhost)
 app.get("/", function(req,res){
-    res.send("Welcome to Ogres Inc. <br /><a href='/'>Home</a><a href='/about'>About</a> <br /><a href='/project'>Project</a>");
-    res.render('index', {foo:'&copy; Carleigh Feldhouse'})
+    res.send("<a href='/about'>[About]</a><a href='/project'>[project]</a><br />Welcome Ogre, Inc.<br /><footer>&copy;Ogre, Inc</footer>");
   });
 
 // setup another route to listen on /about
